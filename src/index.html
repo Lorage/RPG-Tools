@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPG Tools</title>
+    <meta charset="UTF-8">
+
+    <!-- CSS -->
+    <link href="./assets/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    
+    
+    <!-- JS -->
+    <script src="./assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Angular -->
+    <script src="./assets/lib/angular/angular.min.js"></script>
+    <script src="./assets/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./assets/lib/angular-ui-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="./assets/lib/angular-animate/angular-animate.min.js"></script>
+    
+    <script src="./app/app.module.js"></script>
+    <script src="./app/app.routes.js"></script>
+   
+    
+    <!-- Tools -->
+    <script src="./app/components/tools/toolsController.js"></script>
+
+    <!-- Randomizer -->
+    <script src="./app/components/randomizer/randomizerController.js"></script>
+    <script src="./app/components/randomizer/randomizerService.js"></script>
+    <script src="./app/components/randomizer/uploadDirective.js"></script>
+    <script src="./app/components/randomizer/fileReader.js"></script>
+    
+    
+  </head>
+  <body ng-app="rpgTools" class="body">
+    
+    <ui-view></ui-view>
+
+  </body>
+
+</html>

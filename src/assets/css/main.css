@@ -1,0 +1,79 @@
+html {
+  height: 100%; }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px; }
+
+body {
+  height: 100%; }
+  body .randomize {
+    height: 100%;
+    background-color: #261a0d;
+    -webkit-box-shadow: inset 4px 4px 255px 40px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: inset 4px 4px 255px 40px rgba(0, 0, 0, 0.34);
+    box-shadow: inset 4px 4px 255px 40px rgba(0, 0, 0, 0.34);
+    overflow-y: auto; }
+    body .randomize .container {
+      width: 90%;
+      padding: 0 5% 0 5%; }
+    body .randomize .row {
+      width: 100%; }
+    body .randomize .row:first-child {
+      height: 20%; }
+    body .randomize .row:nth-child(2) {
+      height: 80%; }
+    body .randomize input[type='file'] {
+      opacity: 0;
+      display: none; }
+    body .randomize #fileButton {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 45px;
+      background-color: black;
+      padding-top: 10px;
+      cursor: pointer; }
+      body .randomize #fileButton p {
+        font-size: 18px;
+        color: white;
+        text-align: center; }
+    body .randomize #fileButton:hover {
+      background-color: white; }
+      body .randomize #fileButton:hover p {
+        color: black; }
+    body .randomize .random-effect {
+      width: 60%;
+      margin-left: 15%;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 0 2px 0;
+      border-radius: 0px;
+      margin-bottom: 20px; }
+      body .randomize .random-effect p {
+        color: white;
+        font-size: 16px;
+        text-align: center; }
+    body .randomize .random-effect:hover {
+      background-color: white;
+      cursor: pointer; }
+      body .randomize .random-effect:hover p {
+        color: black; }
+    body .randomize .list-column {
+      height: 525px;
+      padding: 10px 5px 5px 5px;
+      overflow-y: auto;
+      margin-bottom: 15px;
+      margin-right: 5px; }
+      body .randomize .list-column p {
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        padding: 5px;
+        color: white; }
